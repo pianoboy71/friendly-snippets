@@ -49,10 +49,17 @@
     ],
     "description": "Class"
   },
+  "Console.ReadLine": {
+    "prefix": "cr",
+    "body": [
+      "Console.ReadLine($0);"
+    ],
+    "description": "Console.ReadLine"
+  },
   "Console.WriteLine": {
     "prefix": "cw",
     "body": [
-      "System.Console.WriteLine($0);"
+      "Console.WriteLine($0);"
     ],
     "description": "Console.WriteLine"
   },
@@ -442,10 +449,7 @@
   "Using statement": {
     "prefix": "using",
     "body": [
-      "using (${1:resource})",
-      "{",
-      "    $0",
-      "}"
+      "using ${1:resource};$0"
     ],
     "description": "Using statement"
   },
