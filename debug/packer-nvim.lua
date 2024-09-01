@@ -22,7 +22,7 @@ local function load_plugins()
 	require("packer").startup({
 		{
 			"wbthomason/packer.nvim",
-			"rafamadriz/friendly-snippets",
+			"pianoboy71/friendly-snippets",
 			"L3MON4D3/LuaSnip", -- snippet engine is necessary to load snippets
 			-- completion engine is not needed but makes debuggin much easir
 			-- since you type and instantly see if snippets are being loaded
